@@ -1,9 +1,10 @@
-package com.mycompany.almacen;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Almacen1 {
+
+    private static String sector;
     private List<String> inventario;
 
     public Almacen1() {
@@ -55,7 +56,7 @@ public class Almacen1 {
                 case 1:
                     System.out.print("Ingrese el nombre del producto a agregar: ");
                     String producto = scanner.nextLine();
-                    almacen.agregarProducto(producto);
+                    almacen.agregarProducto(producto, sector);
                     break;
                 case 2:
                     System.out.print("Ingrese el nombre del producto a eliminar: ");
