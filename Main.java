@@ -24,16 +24,16 @@ public class Main {
             System.out.println("Inicio de sesión exitoso.");
 
             System.out.println("Selecciona un almacén:");
-            System.out.println("1. Almacen de muebles");
-            System.out.println("2. Almacen de embutidos");
+            System.out.println("1. Almacen 1");
+            System.out.println("2. Almacen 2");
 
             int opcion = scanner.nextInt();
             
             if (opcion == 1) {
                 Almacen1 almacen1 = new Almacen1();
                 
-                // Métodos para Almacen de Muebles
-                System.out.println("Seleccionaste el Almacen de Muebles.");
+                // Métodos para Almacen 1
+                System.out.println("Seleccionaste el Almacen 1.");
                 System.out.println("1. Añadir producto");
                 System.out.println("2. Eliminar producto");
                 System.out.println("3. Buscar producto");
@@ -62,8 +62,8 @@ public class Main {
             } else if (opcion == 2) {
                 Almacen2 almacen2 = new Almacen2();
                 
-                // Métodos para Almacen de Embutidos
-                System.out.println("Seleccionaste el Almacen de Embutidos.");
+                // Métodos para Almacen 2
+                System.out.println("Seleccionaste el Almacen 2.");
                 System.out.println("1. Añadir producto");
                 System.out.println("2. Eliminar producto");
                 System.out.println("3. Buscar producto");
